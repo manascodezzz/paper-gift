@@ -1,0 +1,26 @@
+.paper{
+    padding: 100px 100px;
+}
+body{
+
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('images/bg.jpeg');
+    background-size: 1000px;
+    background-position: center center;
+
+
+}
+.paper{
+    
+    position: absolute;
+    background-image: url('images/paper.webp');
+    background-size: 500px;
+    background-position: center center;
+    padding: 20px 100px;
+    transform: rotateZ(-5deg);
+    box-shadow: 1px 15px 20px 0px rgba(0, 0, 0, 0.5);
+ 
+}
